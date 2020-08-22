@@ -1,0 +1,280 @@
+
+
+body{
+    background-color: black;
+}
+
+body:before{
+	content: ;
+	width: 100%;
+	min-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	background: linear-gradient(#52c4df, #ad55c1);
+}
+
+.contenedor{
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	top: 0px
+
+}
+
+.texto-encima{
+	position: absolute;
+	top: 250px;
+	left: 325px;
+	text-align: center;
+	font-size: 70px;
+	font-family: candara;
+	color: white;
+}
+
+.centrado{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-family: candara;
+}
+
+.caja{
+	height:615px;
+	width: 1331px;
+	background-color: black;
+	right: 800px;
+	top: 800px;
+	display: block;
+}
+
+.sitio{
+	position: relative;
+	top: 560px;
+	left: 0px;
+	background-color: black;
+	padding: 20px;
+	width: 1000px;
+	font-family: candara;
+}
+
+.img1{
+	right: -50px;
+	position: relative;
+	top: 50px;
+	
+}
+.img1:hover{
+	transform: scale(1.2);
+}
+.img1{
+	transition: all 0.5s ease;
+}
+
+.texto-encima::after, .texto-encima::before{
+	content:'';
+	position: absolute;
+	width: 120px;
+	height: 3px;
+	background-color: white;
+	top: 0.6em;
+}
+
+.texto-encima:before{
+	left: -140px;
+}
+
+.texto-encima:after{
+	right: -140px
+
+}
+
+.texto-encima:hover:after{
+	transform: scale(0);
+	transition: all 0.5s ease;
+
+}
+
+.texto-encima:hover:before{
+	transform: scale(0);
+	transition: all 0.5s ease;
+
+}
+
+div h1{
+	color: white;
+	left: 230px;
+	font-size: 18px;
+	top: -230px;
+	position: relative;
+}
+
+div h2{
+	color: purple;
+	left: 240px;
+	font-family: candara;
+	top: -440px;
+	position: relative;
+	font-size: 35px;
+}
+
+div .cuadros{
+	background-color: white;
+	position: relative;
+	margin: auto;
+	margin-top: -150px;
+	width: 1352px;
+	height: 1200px;
+	left: -30px
+}
+
+div .huevada2{ 
+	position: relative;
+	top: 80px;
+	color: purple;
+	font-family: candara;
+	font-size: 30px;
+}
+
+.huevada2::after, .huevada2::before{
+	content:'';
+	position: absolute;
+	width: 120px;
+	height: 3px;
+	background-color: purple;
+	top: 0.6em;
+}
+
+.huevada2:before{
+	left: 770px;
+}
+
+.huevada2:after{
+	right: 770px;
+}
+
+.huevada2:hover:after{
+	transform: scale(0);
+	transition: all 0.5s ease;
+}
+
+.huevada2:hover:before{
+	transform: scale(0);
+	transition: all 0.5s ease;
+}
+
+hr{
+	position: relative;
+	top: 120px;
+}
+
+div .cuadro2{
+	position: relative;
+	margin: auto;
+	margin-top: 250px;
+	background-color: #B2B2B2;
+	width: 250px;
+	height: 522px;
+	left: -400px;
+}
+.cuadro2:hover{
+	transform: scale(1.2);
+
+}
+.cuadro2{
+	transition: all 0.5s ease;
+}
+div .cuadro3{
+	position: relative;
+	margin: auto;
+	margin-top: -522px;
+	background-color: #BF6CFF;
+	width: 250px;
+	height: 522px;
+	left:;
+}
+.cuadro3:hover{
+	transform: scale(1.2);
+
+}
+.cuadro3:activate{
+	transform: scale(0.9);
+}
+.cuadro3{
+	transition: all 0.5s ease;
+}
+div .cuadro4{
+	position: relative;
+	margin: auto;
+	margin-top: -522px;
+	background-color: #3AA8FF;
+	width: 250px;
+	height: 522px;
+	left: 400px;
+
+}
+
+.cuadro4:hover{
+	transform: scale(1.2);
+
+}
+.cuadro4:activate{
+	transform: scale(0.9);
+}
+.cuadro4{
+	transition: all 0.5s ease;
+}
+
+
+div .amigo{
+	position: relative;
+	
+}
+div .huevadas3{
+	position: relative;
+	font-family: candara;
+	font-size: 20px;
+	color: white;
+	top: -8px
+}
+div .huevadas4{
+	position: relative;
+	font-family: candara;
+	font-size: 20px;
+	color: white;
+	top: -8px;
+}
+div .huevadas5{
+	position: relative;
+	font-family: candara;
+	font-size: 20px;
+	color: white;
+	top: -8px;
+}
+.enlace1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+.enlace2{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+.enlace3{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
